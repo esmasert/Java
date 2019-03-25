@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by esmasert on 18.06.2017.
  */
+
 public class TwoSum {
 
     static int[] list =new int[4];
@@ -39,7 +40,7 @@ public class TwoSum {
 
             Scanner in = new Scanner(System.in);
 
-            System.out.println("lutfen bir sayi giriniz:");
+            System.out.println("please enter a number:");
             a = in.nextInt();
 
             list[b]=a;
@@ -48,7 +49,7 @@ public class TwoSum {
 
         Scanner in2 = new Scanner(System.in);
 
-        System.out.println("lutfen bir target giriniz:");
+        System.out.println("please enter a target:");
         x = in2.nextInt();
 
         twoSum(list,x);
